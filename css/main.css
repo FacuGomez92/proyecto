@@ -5,6 +5,7 @@
     border-radius: 5px;
 
 }
+
 body{
     background-color: rgba(16, 18, 19, 0.986);
     margin: 0;
@@ -176,3 +177,8 @@ main#log {
     border-radius: 10px;
     box-shadow: 10px 10px 5px #fff;
  }
+.col{
+    color: #4d5358;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
