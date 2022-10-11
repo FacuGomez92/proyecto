@@ -1,9 +1,14 @@
 .iconosredes{
     width: 20px 5px;
     padding: 0px;
-    
-}
+    margin: 0px;
+    border-radius: 5px;
 
+}
+body{
+    background-color: rgba(16, 18, 19, 0.986);
+    margin: 0;
+}
 main{
     background-color: rgba(16, 18, 19, 0.986);
     border-color:rgba(16, 18, 19, 0.986)
@@ -36,7 +41,7 @@ main#log {
     background-size: auto;
     background-repeat: no-repeat;
     padding: 0;
-    margin: auto;
+    margin: 0;
  }
  .form-log {
      width: 500px;
@@ -140,4 +145,34 @@ main#log {
      color: white;
      margin: 16px 0;
      font-size: 16px;
+ }
+ /* precios */
+ main#precios{
+    display: flex;
+    text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+ }
+ .pr {
+    text-align: center;
+ }
+ h2{
+    color: aqua;
+ }
+ .planes {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+ }
+ span{
+    color: aqua;
+ }
+ .columna{
+    background-color: rgb(17, 31, 44);
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #fff;
  }
