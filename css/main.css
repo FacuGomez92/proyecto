@@ -176,9 +176,31 @@ main#log {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #fff;
+    height: 15rem;
+    
  }
 .col{
     color: #4d5358;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+}
+/* staff */
+.profes {
+    text-align: left;
+    color:aqua;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.p1 {
+    padding: 15px;
+    margin: auto;
+    
+    
+}
+h4 {
+  padding: 0;
+  margin: auto;
+
 }
