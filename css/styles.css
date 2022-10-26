@@ -1,0 +1,206 @@
+.iconosredes{
+    width: 20px 5px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+
+}
+
+body{
+    background-color: rgba(16, 18, 19, 0.986);
+    margin: 0;
+}
+main{
+    background-color: rgba(16, 18, 19, 0.986);
+    border-color:rgba(16, 18, 19, 0.986)
+}
+h5{
+    color: rgb(73, 208, 212);
+}
+.altura-a-b{
+padding: 50px 0px;
+}
+.logos{
+    margin: 10px 5px;
+    width: 150px;
+   
+    
+}
+footer{
+    background-color: rgba(16, 18, 19, 0.986);
+    padding: 100px 0;
+    text-align: center;    
+}
+p{
+    color: beige;
+    text-align: center;
+    margin: 20px;
+  
+}
+main#log {
+    background-color:rgba(16, 18, 19, 0.986) ;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+ }
+ .form-log {
+     width: 500px;
+     background: #24303c;
+     margin: auto;
+     margin-top: 100px;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 7px 13px 37px rgb(163, 27, 27);
+ 
+ }
+ .form-log h3{
+     font-size:15px;
+     color: rgb(255, 248, 248);
+     margin-bottom: 20px;
+ }
+ 
+ .controls{
+     width: 100%;
+     background: #24303c;
+     padding: 10px;
+     border-radius: 4px;
+     margin-bottom: 16px;
+     border: 1px solid #1f53c5;
+     color: white;
+ }
+ .form-log p{
+     height: 40px;
+     text-align: center;
+     font-size: 12px;
+     line-height: 40px;
+ }
+ 
+ .form-log a{
+     color: rgb(252, 252, 252);
+     text-decoration: none;
+ }
+ .form-log a:hover{
+     color: white;
+     text-decoration: underline;
+ }
+ .form-log .btn {
+     width: 100%;
+     background: #1f53c5;
+     border: none;
+     padding: 12px;
+     color: white;
+     margin: 16px 0;
+     font-size: 16px;
+ }
+ main#reg {
+    background-image: url(img/funcionalarranque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .form-registro{
+     width: 500px;
+     background: #24303c;
+     margin: auto;
+     margin-top: 100px;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 7px 13px 37px rgb(163, 27, 27);
+ 
+ }
+ .form-registro h3{
+     font-size:15px;
+     color: rgb(255, 248, 248);
+     margin-bottom: 20px;
+ }
+ 
+ .control{
+     width: 100%;
+     background: #24303c;
+     padding: 10px;
+     border-radius: 4px;
+     margin-bottom: 16px;
+     border: 1px solid #1f53c5;
+     color: white;
+ }
+ .form-registro p{
+     height: 40px;
+     text-align: center;
+     font-size: 12px;
+     line-height: 40px;
+ }
+ 
+ .form-registro a{
+     color: rgb(252, 252, 252);
+     text-decoration: none;
+ }
+ .form-registro a:hover{
+     color: white;
+     text-decoration: underline;
+ }
+ .form-registro .btn {
+     width: 100%;
+     background: #1f53c5;
+     border: none;
+     padding: 12px;
+     color: white;
+     margin: 16px 0;
+     font-size: 16px;
+ }
+ /* precios */
+ main#precios{
+    display: flex;
+    text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+ }
+ .pr {
+    text-align: center;
+ }
+ h2{
+    color: aqua;
+ }
+ .planes {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+ }
+ span{
+    color: aqua;
+ }
+ .columna{
+    background-color: rgb(17, 31, 44);
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #fff;
+    height: 15rem;
+    
+ }
+.col{
+    color: #4d5358;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/* staff */
+.profes {
+    text-align: left;
+    color:aqua;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.p1 {
+    padding: 15px;
+    margin: auto;
+    
+    
+}
+h4 {
+  padding: 0;
+  margin: auto;
+
+}
