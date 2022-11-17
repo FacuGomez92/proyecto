@@ -148,16 +148,60 @@ main#log {
  /* precios */
 
  main#precios{
-    display: flex;
-    flex-basis: 100px;
+  
+    margin: 0px;
     width: auto;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    @media screen {max-width: 150px;
-        flex-direction: column;
-        flex-basis: 100%;
+    font-family: 'Poppins', sans-serif;}
+ .planes {
+    display: flex;
+    flex-direction: row;
+  
+}   
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(17, 31, 44);
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #fff
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
     }
- }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+ .a {
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+    }  
  .pr {
    
     text-align: center;
@@ -166,51 +210,63 @@ main#log {
     color: aqua;
     text-align: center;
  }
- .planes {
-    display: flex;
-    width: 500px;
-    text-align: center;
-    margin: 0;
-    padding: 25px;
- }
+
  span{
     color: aqua;
     
  }
- .columna{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    background-color: rgb(17, 31, 44);
-    border: 1px solid #fff;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px #fff;
-    height: 15rem;
-    
- }
+
 
 /* staff */
+.profe1 {
+    
+}
+
 .profes {
     text-align: left;
     color:aqua;
     margin: 0%;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    border: 1px solid;
+    border-color: #fff;
+    
+}
+img{
+    
+    width: 25%;
+    height: 25%;
+     
+  @media screen and (max-width: 992px) {
+    .profes {
+      width: 50%;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .profes {
+      width: 100%;
+    }}
+    
 }
 .p1 {
     padding: 15px;
     margin: auto;
+    display:flex ;
     
     
 }
 h4 {
-  padding: 0;
+  text-align: right;  
+  padding: 15px;
   margin: auto;
 
 }
+
+//reservas
+h3{
+    color: beige;
+} 
 
 // arreglar pagina formulario
 // arreglar calendario
