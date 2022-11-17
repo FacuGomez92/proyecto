@@ -200,14 +200,14 @@ span {
   border: 1px solid;
   border-color: #fff; }
 
-img {
+img#prof {
   width: 25%;
   height: 25%; }
   @media screen and (max-width: 992px) {
-    img .profes {
+    img#prof .profes {
       width: 50%; } }
   @media screen and (max-width: 600px) {
-    img .profes {
+    img#prof .profes {
       width: 100%; } }
 
 .p1 {
